@@ -1,83 +1,87 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-	background-color: black;
-	color: white;
-	font-family: "Jersey 10", sans-serif;
-	padding: 30px;
+  background-color: black;
+  color: white;
+  font-family: 'Jersey 10', sans-serif;
 }
 /* Guess number section */
 header {
-	border-bottom: 7px solid white;
-	height: 35vh;
-	position: relative;
-	margin-bottom: 100px;
+  border-bottom: 7px solid white;
+  height: 35vh;
+  position: relative;
+  margin-bottom: 100px;
 }
 .btn {
-	width: 100px;
-	height: 50px;
-	background-color: white;
-	font-family: "Jersey 10", sans-serif;
-	font-size: 20px;
-	border: none;
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  font-family: 'Jersey 10', sans-serif;
+  font-size: 20px;
+  border: none;
+  margin: 30px;
 }
 .btn:hover {
-	background-color: rgb(216, 215, 215);
+  background-color: rgb(216, 215, 215);
 }
 .title {
-	font-size: 60px;
-	text-align: center;
+  font-size: 60px;
+  text-align: center;
 }
 .description {
-	text-align: center;
+  text-align: center;
 }
 
 .number {
-	position: absolute;
-	background-color: white;
-	color: black;
-	width: 200px;
-	height: 100px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  position: absolute;
+  background-color: white;
+  color: black;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-	font-size: 42px;
-	bottom: 0%;
-	left: 50%;
-	transform: translate(-50%, 50%);
+  font-size: 42px;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, 50%);
 }
 
 /* Check Number Section */
 main {
-	display: flex;
-	justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 .check-number .btn {
-	margin: 30px 50px;
+  margin: 30px 50px;
 }
 .your-number {
-	width: 200px;
-	height: 100px;
-	background-color: inherit;
-	border: 4px solid white;
-	display: block;
+  width: 200px;
+  height: 100px;
+  background-color: inherit;
+  color: white;
+  text-align: center;
+  border: 4px solid white;
+  font-family: 'Jersey 10', sans-serif;
+  font-size: 50px;
+  display: block;
 }
 
 /* Stats section */
 .stats {
-	display: flex;
-	flex-direction: column;
-	gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .message {
-	font-size: 40px;
+  font-size: 40px;
 }
 
 .label-score,
 .label-highscore {
-	font-size: 24px;
+  font-size: 24px;
 }
