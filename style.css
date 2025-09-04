@@ -7,15 +7,16 @@ body {
   background-color: black;
   color: white;
   font-family: 'Jersey 10', sans-serif;
+  width: 100%;
 }
 /* Guess number section */
 header {
   border-bottom: 7px solid white;
-  height: 35vh;
+  height: 300px;
   position: relative;
   margin-bottom: 100px;
   @media (max-width: 425px) {
-    height: 45vh;
+    height: 350px;
   }
 }
 .btn {
