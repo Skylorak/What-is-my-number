@@ -68,12 +68,15 @@ main {
   border: 4px solid white;
   font-family: 'Jersey 10', sans-serif;
   font-size: 50px;
-  display: block;
+  padding: 2px;
 }
 .your-number:focus {
   outline: none;
 }
-
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  opacity: 1;
+}
 /* Stats section */
 .check-number,
 .stats {
